@@ -28,7 +28,7 @@ module.exports = {
       host : "138.197.222.247",
       ref  : "origin/master",
       repo : "https://github.com/ericsproles/node-example.git",
-      path : "~/Tron/dev/learncode/node-example",
+      path : "~/node-example",
       "post-deploy" : "nvm install && npm install && pm2 startOrRestart ecosystem.json --env production"
     },
     // staging : {
