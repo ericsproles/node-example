@@ -27,7 +27,7 @@ module.exports = {
       user : "deploy",
       host : "138.197.222.247",
       ref  : "origin/master",
-      repo : "https://cf06131c137fae597af6720f6c4f05996389fe2b@github.com/ericsproles/node-example.git",
+      repo : "https://github.com/ericsproles/node-example.git",
       path : "~/dev/learncode/node-example",
       "post-deploy" : "nvm install && npm install && pm2 startOrRestart ecosystem.json --env production"
     },
