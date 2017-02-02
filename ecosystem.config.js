@@ -29,7 +29,7 @@ module.exports = {
       ref  : "origin/master",
       repo : "https://github.com/ericsproles/node-example.git",
       path : "/home/deploy/node-example",
-      "post-deploy" : "nvm install && npm install && /home/deploy/.nvm/versions/node/v6.9.5/bin/pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy" : "nvm install && npm install && /home/deploy/.nvm/versions/node/v6.9.5/bin/pm2 startOrRestart ecosystem.config.js --env production"
     },
     // staging : {
     //   user : "node",
